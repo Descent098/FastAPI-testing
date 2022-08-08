@@ -11,6 +11,10 @@ For some background I primarily work with flask for creating my simple projects.
 
 I decided to try FastAPI since it has a default `/docs` route that is an interactive docs section and is incredibly fast while supporting asynchronus routes.
 
+## What
+
+This demo is a demo that just allows you to add new users and displays a table of all the users that exist. The values are all tied to the python runtime and **are not persistant**. This means they will be deleted once the runtime environment closes.
+
 ## Setup
 
 There are three options for setup, you can install natively, use virtualenv or you can use docker
